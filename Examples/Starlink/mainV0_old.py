@@ -1,0 +1,1 @@
+exec(compile(open("/Users/jago/Documents/Uni/Other/CV/N-Body-Simulator/mainV0_old.py", "rb").read(), "/Users/jago/Documents/Uni/Other/CV/N-Body-Simulator/mainV0_old.py", 'exec'))

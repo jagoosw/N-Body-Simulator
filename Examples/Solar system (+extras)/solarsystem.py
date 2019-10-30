@@ -1,5 +1,5 @@
 #Solar system example
-from mainV0_old import *
+exec(compile(open("/Users/jago/Documents/Uni/Other/CV/N-Body-Simulator/mainV0_old.py", "rb").read(), "/Users/jago/Documents/Uni/Other/CV/N-Body-Simulator/mainV0_old.py", 'exec'))
 
 sun = Body("Sun", 1.988544e30, 1.288434560262645E+08, 1.016672287106661E+09, -1.460513324984163E+07, -1.192685083932455E1, 6.859058889648139E0, 2.877423917810483E-01)
 earth = Body("Earth", 5.97219e24, -5.826290294858550E+10, -1.388957265033708E+11, -8.789464758947492E+06, 2.698413775232139E+04, -1.157192512486361E+04, 1.063440919711667e0)
