@@ -1,6 +1,6 @@
 # N Body itterator
 
-This is a program I wrote in about June 2018 that numerically integrates the gravitational forces between bodies (you can put in as many as you want to) and then draws a plot of their postion through time. It is not very reliable over a long time scale or if the incriments are too small as the whole system tends to gain energy.
+This is a program I wrote in about June 2018 that numerically integrates the gravitational forces between bodies (you can put in as many as you want to) and then draws a plot of their position through time. It is not very reliable over a long time scale or if the increments are too small as the whole system tends to gain energy.
 
 To use it you make the bodies by calling `Body(name, mass, initial x position, y position, z position, x velocity, y velocity, z velocity)` and then `Body.simulate(start time, end time, incriments, output incriments, output - True/False, save- True/False)` and then finally `Body.output_all(to_show)`. 
 
